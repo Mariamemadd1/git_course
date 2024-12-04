@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Bitter;
+}
+body{
+    background-color: wheat;
+}
+header{
+   display: flex;
+   justify-content: space-between;
+   background-color: #2b1a20;
+   align-items: center;
+   position: fixed;
+   width: 100%;
+   top: 0;
+height: 70px;
+}
+
+header .left {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+header .left img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    display: flex;
+   margin-right: 10px;
+    
+}
+header .left h1{
+    color: wheat;
+}
+.rightlinks{
+    margin: 0px 90px;
+}
+.rightlinks a{
+   margin: 0px 20px;
+    text-decoration: none;
+    color: wheat;
+    font-size: 18px;
+    transition: ease 0.5s;
+}
+.rightlinks a:hover{
+    color:rgb(103, 103, 81);
+    font-size: 16px;
+}
+.S1{
+    height: 100vh;
+    background-image: url(imgs/output.jpg);
+    background-size: cover;
+    display: flex;
+}
+.S1 .container{
+    margin: auto 120px;
+    color: #25161b;
+}
+.S1 .container h1{
+    font-size:3.5em;
+}
+.S1 .container h3{
+    font-size:1.5em;
+}
+.word{
+    color:#693b3e;
+}
+ .items{
+    display: flex;
+    justify-content: space-around;
+}
+.i{
+    width :20%;
+    margin: 30px 10px;
+    background-color: #c09c7a74;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    height: 500px;
+}
+.i img{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.i a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color:  #7b4a4d91;
+    border-radius: 5px;
+    padding:10px 90px;
+    margin: auto;
+    transition: ease 0.5;
+   
+}
+.i a:hover{
+    color: rgb(13, 11, 11);
+    background-color:  #462b2d5c;
+    font-size: 18px;
+}
+.i h4{
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+}
+footer .contact img{
+width: 45px;
+height: 45px;
+border-radius: 50%;
+}
+footer .contact a:hover{
+    width: 50px;
+    height: 50px;
+   
+    }
+footer p{
+    font-size: 16px;
+}
+.S3{
+    text-align: center;
+}
+.S3 img{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    margin: 0%;
+}
+.S3 p{
+    font-size: 1.4em;
+    margin-top: 20px;
+}
+marquee{
+    margin: 40px ;
+    font-size: 3em;
+    color: brown;
+    animation: marquee 5s linear infinite;
+}
+
