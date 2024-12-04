@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: Bitter;
+}
+body{
+    background-color:wheat ;
+}
+.l{
+    background-color: #c09c7a74;
+    width: 40%;
+    height: 650px;
+   margin: auto;
+   border-radius: 9px;
+   margin-top: 50px;
+   text-align: center;
+}
+ h1{
+    padding-top: 60px;
+}
+.u {
+ margin: 40px;
+}
+.u input
+{
+    
+    width: 65%;
+    height: 30px;
+    border-radius: 12px ;
+    border-color: #c09c7a74;
+    padding: 10px;
+    background-color: rgba(242, 242, 242, 0.852);
+}
+
+.forget a{
+   
+    margin-left: 0px;
+    text-align: center;
+    color: black;
+}
+.sub a{
+    padding: 12px;
+    width: 55%;
+    margin: 20px auto;
+    display: flex;
+    background-color: #724548c7; 
+    border-radius: 12px;
+    border-color: #72454800;
+    color: whitesmoke ;
+    text-decoration: none;
+    text-align: center;
+    justify-content:center ;
+    transition: ease 0.5;
+}
+.sub a :hover{
+    color: rgb(13, 11, 11);
+    background-color:  #462b2d5c;
+    font-size: 18px;
+}
+.dont{
+    margin-top:200px;
+}
+.dont a{
+     color: rgba(0, 0, 0, 0.586);
+}
